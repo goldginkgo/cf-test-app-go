@@ -1,0 +1,6 @@
+package: cf-test-app-go
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+  version: ~1.17.0
+- package: github.com/gorilla/mux
+  version: ~1.5.0

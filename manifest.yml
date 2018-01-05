@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-test-app-go
+  random-route: true
+  memory: 256M
+  instances: 1
+  host: cf-test-app-go
+  buildpack: go_buildpack
